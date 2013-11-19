@@ -1,12 +1,12 @@
-1. The Web and the Newsroom
-===========================
+The Web and the Newsroom
+========================
 
 World wide web started as interconnected platform for documents. Slowly richer content became available, mainly through plugins such as Adobe's Flash.
 
 Flash is no longer supported on many platforms. What can we use instead?
 
-HTML, JavaScript and CSS
-------------------------
+1.1 HTML, JavaScript and CSS
+----------------------------
 
 There are many technologies that are built into browsers. Browsers generally adhere to standards. Standards that are established by the World Wide Web Consortium (W3C).
 
@@ -34,8 +34,8 @@ CSS (Cascading Style Sheets) is a language used to define the presentation of va
 Between these three technologies we can build almost anything we can imagine for the web. 
 
 
-Basic Concepts of the Web
--------------------------
+1.2 Basic Concepts of the Web
+-----------------------------
 
 The web as a platform is very popular and always increasing in popularity despite competition from things like native apps.
 
@@ -54,8 +54,8 @@ There are many reasons the web is a winning platform:
 
 
 
-The Web Landscape
------------------
+1.3 The Web Landscape
+---------------------
 
 When writing for the web platform, or many different platforms, it's important to have an idea of what your users are using and what their connection speed is.
 
@@ -75,45 +75,22 @@ As a general rule of thumb we try and make web sites and applications as efficie
 
 
 
-The Semantic Web
-----------------
+1.4 The Semantic Web
+--------------------
 
 You may think that the web pages you create are to be consumed by people but HTML is also designed to be read (and understood) by machines. The idea is that by using certain tags automated agents can make sense of the content of web pages, this promotes interoperability. 
 
 
-Responsive Web Design
----------------------
+1.5 Responsive Web Design
+-------------------------
 
 Responsive Web Design (RWD) is the practice of designing web sites and applications to work on various platforms using one client-side code base. It can be difficult to master and can provide sub-optimal experiences if not done correctly. An alternative method is detect the browser on the server and serve up different HTML and related assets, this technique known as RESS (responsive web design with server-side components).
 
 A good example of a RWD site and framework in action is [Bootstrap](http://bootstrap.com), if you're interested in this concept check out [Zurb's Foundation Framework](http://foundation.zurb.com/). Note also that the latest versions of Bootstrap are designed with mobile first in mind.
 
 
-Accessibility
--------------
+1.6 Accessibility
+-----------------
 
 Web Accessibility is the practice of making websites usable by people of all abilities and disablities. This means taken into account people with aural or visual weaknesses as well as those with learning difficulties. Marking things up semantically helps as tools such as screenreaders can provide better context, but paying attention to the colours you are using, text size and contrast are all part and parcel of making things accessible. In many ways visualising data is an exercise in making your data accessible.
 
-
-HTML5
-=====
-
-HTML5 has become shorthand for HTML5, related new web technologies and JavaScript APIs. For short, HTML5 and friends. We're going to break each of these pieces down a bit so that we get a good overview of what is possible.
-
-Defining an HTML5 document. We're going to be using a collaborative coding environment called [JS Bin](http://jsbin.com/) on this course, so click on that link now and lets take a look at what a skeleton HTML5 web-page looks like.
-
-
-
-Canvas
-------
-
-You can think of canvas as a drawing surface for a web-page. If you knew HTML pre-canvas you'll this was difficult to do without using plugins like Flash. Canvas offers a way of writing pixels, lines and shapes to the screen in an intuitive way. You can read and write all the pixels of a particular canvas, you can even apply canvases to other HTML5 elements.
-
-Although Canvas may look vector-based, it is actually rasterised, which means if you zoom in, you'll start to see the pixels.
-
-
-
-
----
-Tools
-Preproccessors
