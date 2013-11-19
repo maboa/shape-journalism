@@ -20,6 +20,10 @@ Defining an HTML5 document. We're going to be using a collaborative coding envir
 
 <a class="jsbin-embed" href="http://jsbin.com/uSoyAGUw/1/embed?html">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
+Lets analyse this a little but not overly.
+
+```<!DOCTYPE html>``` just tells the browser that we are using the latest version of HTML, in the ```<meta>``` tag we define the charset (it is usually utf-8 which represents unicode). You may be able to imagine how the rest of this structure works. Safe to say most of the content will reside between the ```<body>``` tags.
+
 
 
 2.1 Canvas
@@ -29,3 +33,6 @@ You can think of canvas as a drawing surface for a web-page. If you knew HTML pr
 
 Although Canvas may look vector-based, it is actually rasterised, which means if you zoom in, you'll start to see the pixels.
 
+---
+
+[previous 1. The Web and the Newsroom](01-web-and-the-newsroom.md)

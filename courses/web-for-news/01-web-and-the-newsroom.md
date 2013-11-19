@@ -1,5 +1,5 @@
-The Web and the Newsroom
-========================
+1. The Web and the Newsroom
+===========================
 
 World wide web started as interconnected platform for documents. Slowly richer content became available, mainly through plugins such as Adobe's Flash.
 
