@@ -8,11 +8,11 @@ You should install at least two browsers with different rendering engines.
 
 This is the lay of the land as far as rendering engines are concerned:
 
-*Chrome - Blink
-*Firefox - Gecko
-*Internet Explorer - Trident
-*Safari - Webkit
-*Opera - Blink
+* Chrome - Blink
+* Firefox - Gecko
+* Internet Explorer - Trident
+* Safari - Webkit
+* Opera - Blink
 
 You may find that you cannot install certain browsers on your operating system. If you really want to try them out you can use Virtual Machines such as [Virtual Box](https://www.virtualbox.org/) and install the required OS and browser in there.
 
