@@ -94,3 +94,6 @@ A good example of a RWD site and framework in action is [Bootstrap](http://boots
 
 Web Accessibility is the practice of making websites usable by people of all abilities and disablities. This means taken into account people with aural or visual weaknesses as well as those with learning difficulties. Marking things up semantically helps as tools such as screenreaders can provide better context, but paying attention to the colours you are using, text size and contrast are all part and parcel of making things accessible. In many ways visualising data is an exercise in making your data accessible.
 
+---
+
+[next 2. HTML5](02.html5.md)
