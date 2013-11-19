@@ -5,6 +5,19 @@ HTML5 has become shorthand for HTML5, related new web technologies and JavaScrip
 
 Defining an HTML5 document. We're going to be using a collaborative coding environment called [JS Bin](http://jsbin.com/) on this course, so click on that link now and lets take a look at what a skeleton HTML5 web-page looks like.
 
+'''
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  
+</body>
+</html>
+'''
+
 <a class="jsbin-embed" href="http://jsbin.com/uSoyAGUw/1/embed?html">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 
