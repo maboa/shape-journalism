@@ -29,4 +29,4 @@ Lets analyse this a little, but not overly.
 
 ---
 
-[<< previous 2. Tools of the Trade](02-tools-of-the-trade.md) | [>> next 4. Canvas](04-canvas.md)
+[<< previous 2. Tools of the Trade](02-tools-of-the-trade.md) | [next 4. Canvas >>](04-canvas.md)

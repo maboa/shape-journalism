@@ -96,4 +96,4 @@ Web Accessibility is the practice of making websites usable by people of all abi
 
 ---
 
-[>> next 2. Tools of the Trade](02-tools-of-the-trade.md)
+[next 2. Tools of the Trade >>](02-tools-of-the-trade.md)

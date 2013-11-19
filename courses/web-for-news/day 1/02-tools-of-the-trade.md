@@ -31,6 +31,18 @@ We're going to publish all our exercises on GitHub so let's make sure we all hav
 
 [GitHub Exercise goes here]
 
+2.3 Collborative Coding
+-----------------------
+
+Sharing snippets of code and allowing people to edit them is a great way of moving forward. There are several tools you may investigate for these purposes:
+
+* [JS Bin](http://jsbin.com/)
+* [JSFiddle](http://jsfiddle.net/)
+* [Codepen](http://codepen.io/)
+* [GitHub Gist](https://gist.github.com/)
+
+We're going to use JS Bin for the purposes of our course.
+
 ---
 
-[<< previous 1. The Web and the Newsroom](01-web-and-the-newsroom.md) | 	[>> next 3. HTML5 - Getting Started](03-html5-getting-started.md)
+[<< previous 1. The Web and the Newsroom](01-web-and-the-newsroom.md) | 	[next 3. HTML5 - Getting Started >>](03-html5-getting-started.md)
