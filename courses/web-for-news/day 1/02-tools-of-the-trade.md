@@ -33,4 +33,4 @@ We're going to publish all our exercises on GitHub so let's make sure we all hav
 
 ---
 
-[previous 1. The Web and the Newsroom](01-web-and-the-newsroom.md) | [next 3. HTML5](03-html5.md)
+[<< previous 1. The Web and the Newsroom](01-web-and-the-newsroom.md) | 	[>> next 3. HTML5 - Getting Started](03-html5-getting-started.md)
