@@ -78,11 +78,15 @@ Here two very separate things are going on. First we grabbing a hook into our ca
 
 [See it working](http://jsbin.com/iwIleWi/1/edit)
 
-4.3 Tutorial
+4.3 Exercise
 ------------
 Create a canvas chart with an image fallback.
 
 Note: the origin (0,0) of a Canvas is in the top left corner.
+
+### Further Info
+
+[Canvas on MDN](https://developer.mozilla.org/en/docs/HTML/Canvas)
 
 ---
 
