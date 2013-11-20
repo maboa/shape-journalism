@@ -132,10 +132,10 @@ Note : Use lower case to denote relative distance rather than absolute.
 
 SVG allows you to define [Bézier curves](http://en.wikipedia.org/wiki/B%C3%A9zier_curve)
 
-*C - Cubic Bezier (C x1 y1, x2 y2, x y (or c dx1 dy1, dx2 dy2, dx dy))
-*S - Shorthand Cubic Bezier (S x2 y2, x y (or s dx2 dy2, dx dy) - only two - coordinates required as first is reflected)
-*Q - Quadratic Bezier (Q x1 y1, x y (or q dx1 dy1, dx dy))
-*T - Shorthand Quadratic Bezier (T x y (or t dx dy))
+* C - Cubic Bezier (C x1 y1, x2 y2, x y (or c dx1 dy1, dx2 dy2, dx dy))
+* S - Shorthand Cubic Bezier (S x2 y2, x y (or s dx2 dy2, dx dy) - only two - coordinates required as first is reflected)
+* Q - Quadratic Bezier (Q x1 y1, x y (or q dx1 dy1, dx dy))
+* T - Shorthand Quadratic Bezier (T x y (or t dx dy))
 
 Try this :
 
@@ -151,8 +151,8 @@ Try this :
 
 ###Arcs
 
-*A rx ry x-axis-rotation large-arc-flag sweep-flag x y
-*a rx ry x-axis-rotation large-arc-flag sweep-flag dx dy
+* A rx ry x-axis-rotation large-arc-flag sweep-flag x y
+* a rx ry x-axis-rotation large-arc-flag sweep-flag dx dy
 
 The sweep-flag makes this very powerful.
 
