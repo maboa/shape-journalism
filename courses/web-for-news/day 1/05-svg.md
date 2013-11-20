@@ -12,9 +12,9 @@ You can also export to SVG from various packages such as Adobe Illustrator and I
 
 This is a good time to go over what the DOM actually is. Essentially the DOM is a group of relationships between elements on the page. We can 'traverse' these elements by using relationships such as:
 
-*parent
-*child
-*sibling
+* parent
+* child
+* sibling
 
 Unfortunately the way that the DOM is structured makes this a little clunky. Get out you Web Developer tools and click on any element in a web page to find out why (or use console.dir).
 
@@ -227,3 +227,7 @@ As we can change values dynamically you can imagine that animation is possible. 
 [Learning how to write SVGs](http://everydaydesigner.net/design/get-started-with-scalable-vector-graphics)
 
 [SVG Filters (W3C)](http://www.w3.org/TR/SVG/filters.html)
+
+---
+
+[<< previous 4. Canvas](04-canvas.md) | [next 6. WebGL >>](06-webgl.md)
