@@ -223,5 +223,7 @@ As we can change values dynamically you can imagine that animation is possible. 
 
 ###Further Info
 [SVG Primer (published by the W3C)](http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html#SVG_in_HTML)
+
 [Learning how to write SVGs](http://everydaydesigner.net/design/get-started-with-scalable-vector-graphics)
+
 [SVG Filters (W3C)](http://www.w3.org/TR/SVG/filters.html)
