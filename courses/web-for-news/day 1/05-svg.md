@@ -23,16 +23,14 @@ Unfortunately the way that the DOM is structured makes this a little clunky. Get
 
 Note: As SVG is based on XML it is a little stricter than HTML, there used to be a version of HTML called XHTML but that's another story!
 
-`````svg
+`````xml
 <svg version="1.1"
      baseProfile="full"
      width="300" height="200"
      xmlns="http://www.w3.org/2000/svg">
 
   <rect width="100%" height="100%" fill="red" />
-
   <circle cx="150" cy="100" r="80" fill="green" />
-
   <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
 
 </svg>
@@ -57,7 +55,7 @@ background-color:#ff0000;
 `````
 in SVG it would look more like:
 
-`````svg
+`````xml
 <rect x="0" y="0" width="300" height="200" fill="#ff0000" stroke="#0000ff" stroke-width="1" />
 `````
 
