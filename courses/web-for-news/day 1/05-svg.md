@@ -146,6 +146,7 @@ Try this :
 `````
 
 ![the second control point is a reflection of the last](https://developer.mozilla.org/@api/deki/files/363/=ShortCut_Cubic_Bezier.png)
+<sub><sup>Image courtesy of Mozilla</sup></sub>
 
 ###Arcs
 
