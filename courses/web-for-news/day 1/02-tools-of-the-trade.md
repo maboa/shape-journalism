@@ -18,7 +18,23 @@ You may find that you cannot install certain browsers on your operating system. 
 
 At the end of the day working in the technology area of a newsroom, you should have access to all major browsers, for comprehensive testing.
 
-2.2 Version Control
+2.2 Debugging
+-------------
+
+Chrome and Firefox's built-in developer tools seem to be most developer's weapon of choice of when it comes to debugging.
+
+For mobile devices you can use:
+
+* [JS Console](http://jsconsole.com/)
+* [Weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/)
+* [iWebinspector](http://www.iwebinspector.com/)
+* [Aardwolf](https://github.com/lexandera/Aardwolf)
+
+The trick is to be able to manipulate the mobile page from your desktop.
+
+Further Info : [Mobile Debugging by Remy Sharp](https://speakerdeck.com/rem/mobile-debugging)
+
+2.3 Version Control
 -------------------
 
 You probably have access to a version control system but it's important to get used popular versioning systems such as [GitHub](https://github.com/) or [BitBucket](https://bitbucket.org/). In this course we will make extensive use of GitHub.
@@ -31,7 +47,7 @@ We're going to publish all our exercises on GitHub so let's make sure we all hav
 
 [GitHub Exercise goes here]
 
-2.3 Collborative Coding
+2.4 Collborative Coding
 -----------------------
 
 Sharing snippets of code and allowing people to edit them is a great way of moving forward. There are several tools you may investigate for these purposes:
@@ -43,6 +59,12 @@ Sharing snippets of code and allowing people to edit them is a great way of movi
 
 We're going to use JS Bin for the purposes of our course.
 
+
+2.5 Testing
+-----------
+
 ---
 
 [<< previous 1. The Web and the Newsroom](01-web-and-the-newsroom.md) | 	[next 3. HTML5 - Getting Started >>](03-html5-getting-started.md)
+
+
