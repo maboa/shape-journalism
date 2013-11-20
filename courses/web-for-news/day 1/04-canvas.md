@@ -82,6 +82,8 @@ Here two very separate things are going on. First we grabbing a hook into our ca
 ------------
 Create a canvas chart with an image fallback.
 
+Note: the origin (0,0) of a Canvas is in the top left corner.
+
 ---
 
 [<< previous 3. HTML5 Getting Started](03-html5-getting-started.md) | [next 5. SVG >>](05-svg.md)

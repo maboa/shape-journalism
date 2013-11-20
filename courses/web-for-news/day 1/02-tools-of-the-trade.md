@@ -23,6 +23,8 @@ At the end of the day working in the technology area of a newsroom, you should h
 
 Chrome and Firefox's built-in developer tools seem to be most developer's weapon of choice of when it comes to debugging.
 
+Also don't be afraid to write values to the console, using command such as consol.log and console.dir. console.log prints a simple string to the screen whereas console.dir display the breakdown of an object or element.
+
 For mobile devices you can use:
 
 * [JS Console](http://jsconsole.com/)
