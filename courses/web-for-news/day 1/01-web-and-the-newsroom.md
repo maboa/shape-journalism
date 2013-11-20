@@ -1,7 +1,9 @@
 1. The Web and the Newsroom
 ===========================
 
-World wide web started as interconnected platform for documents. Slowly richer content became available, mainly through plugins such as Adobe's Flash.
+The web makes an ideal platform for journalism, in this course we aim to examine why that is and teach practical examples of what newsroom developers can do to take advantage of this platform to tell stories. 
+
+The World wide web started as interconnected platform for documents. Slowly richer content became available, mainly through plugins such as Adobe's Flash.
 
 Flash is no longer supported on many platforms. What can we use instead?
 
@@ -93,6 +95,10 @@ A good example of a RWD site and framework in action is [Bootstrap](http://boots
 -----------------
 
 Web Accessibility is the practice of making websites usable by people of all abilities and disablities. This means taken into account people with aural or visual weaknesses as well as those with learning difficulties. Marking things up semantically helps as tools such as screenreaders can provide better context, but paying attention to the colours you are using, text size and contrast are all part and parcel of making things accessible. In many ways visualising data is an exercise in making your data accessible.
+
+Today we are going to look at the technologies that are available and underpin all the great libraries out there.
+
+> "Developers should always understand one layer of abstraction below their everyday work” @glv November 2013
 
 ---
 

@@ -39,4 +39,49 @@ var canvas = document.getElementById('chart');
 var ctx = canvas.getContext('2d');
 `````
 
-Here two very separate things are going on.
+Here two very separate things are going on. First we grabbing a hook into our canvas object via it's id and then we are obtaining what's known as a context. Notcie the '2d' parameter - we are working in two dimensions for now.
+
+
+4.2 Putting the Pieces Together
+-------------------------------
+
+`````html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Canvas tutorial</title>
+    <script>
+
+    function draw() {
+      var canvas = document.getElementById("canvas");
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "rgb(200,0,0)";
+        ctx.fillRect (10, 10, 55, 50);
+
+        ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+        ctx.fillRect (30, 30, 55, 50);
+      }
+    }
+
+    window.onload = draw;
+
+    </script>
+ </head>
+ <body>
+   <canvas id="canvas" width="150" height="150"></canvas>
+ </body>
+</html>
+`````
+
+[See it working](http://jsbin.com/iwIleWi/1/edit)
+
+4.3 Tutorial
+------------
+Create a canvas chart with an image fallback.
+
+---
+
+[<< previous 3. HTML5 Getting Started](03-html5-getting-started.md) | [next 5. SVG >>](05-svg.md)
