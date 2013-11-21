@@ -24,7 +24,9 @@ Lets analyse this a little, but not overly.
 
 ```<!DOCTYPE html>``` just tells the browser that we are using the latest version of HTML, in the ```<meta>``` tag we define the charset (it is usually utf-8 which represents unicode). You may be able to imagine how the rest of this structure works. Safe to say most of the content will reside between the ```<body>``` tags.
 
+###Further Info
 
+[Dive into HTML5 - What Does it All Mean?](http://diveintohtml5.info/semantics.html)
 
 
 ---

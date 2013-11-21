@@ -15,3 +15,6 @@ http://square.github.io/crossfilter/
 Talk about the group element in SVG? http://www.w3.org/TR/SVG/struct.html
 
 Add compatibility tables to all Day 1 modules
+
+
+More resources for canvas
