@@ -88,8 +88,16 @@ To get rid of the flash of unstyled text there is another trick.
 
 Data URI's have a number of advantages, one of them is that the data is inlined into the page. If we base64 encode our fonts then we ensure they are loaded before the interactive is loaded. In some ways this is a simpler and lighter method than relying on events.
 
+8.6 Iconfonts Fallback
+----------------------
 
-8.6 Exercise
+* Create bitmap images for fallbacks
+* Treat as optional enhancements
+* Use [Grunticon](https://github.com/filamentgroup/grunticon) Fallback
+
+[Filament Group Research and Solution](https://t.co/iDQrFBfmPh)
+
+8.7 Exercise
 ------------
 
 1. Create a page with content styled in a non-standard browser font. 

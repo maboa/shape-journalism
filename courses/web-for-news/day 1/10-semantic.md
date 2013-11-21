@@ -65,6 +65,8 @@ http://dev.w3.org/html5/spec/Overview.html#the-cite-element
 
 [Dive into HTML5 - New Semantic Elements in HTML5](http://diveintohtml5.info/semantics.html#new-elements)
 
+[HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+
 ---
 
 [<< previous 9. New Form Elements](09-forms.md) | [next 11. Audio and Video >>](11-audiovideo.md)

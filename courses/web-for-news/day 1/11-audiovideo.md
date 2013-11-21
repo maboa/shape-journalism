@@ -42,7 +42,7 @@ Up until very recently no one codec was supported by all browsers. This is chang
 +----------------+-----+-----+-----+-----+-----+
 |Chrome 6+       | Y   | Y   | Y   | 9+  |     |
 +----------------+-----+-----+-----+-----+-----+
-|Opera 10.5+     |     |     |     | Y   |     |
+|Opera 10.5+     | Y   |     |     | Y   |     |
 +----------------+-----+-----+-----+-----+-----+
 |IE 9+           |     | Y   | Y   |     |     |
 +----------------+-----+-----+-----+-----+-----+
@@ -58,4 +58,4 @@ Up until very recently no one codec was supported by all browsers. This is chang
 +----------------+-----+-----+-----+-----+-----+
 
 `````
-
+Note that most mobile browsers support whatever the underlying operating system supports, this is the approach that Firefox desktop also takes, which means that MP3 support may vary as they transition.
