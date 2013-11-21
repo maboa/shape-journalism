@@ -122,3 +122,7 @@ There are other ways to represent data in three dimensions which we'll come to l
 [MDN WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL)
 [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webgl/webgl_fundamentals/)
 [Wikipedia](http://en.wikipedia.org/wiki/WebGL)
+
+---
+
+[<< previous 5. SVG](05-svg.md) | [next 7. CSS >>](07-css.md)
