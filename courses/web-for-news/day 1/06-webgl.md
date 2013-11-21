@@ -112,15 +112,17 @@ There's also a powerful JavaScript library called [http://threejs.org/](Three.js
 
 There are other ways to represent data in three dimensions which we'll come to later. For now lets look at some examples to get an idea of potential.
 
-[CopperCube Demo](http://www.ambiera.com/coppercube/demo.php?demo=backyard&mode=webgl)
-[Google Zeitgeist](http://www.google.com/zeitgeist/2012/#explore)
-[360gigapixels](http://360gigapixels.com/tokyo-tower-panorama-photo/?v=-166.3,-0.6,1)
-[Digital Landscapes](http://www.littleworkshop.fr/landscapes/)
+* [CopperCube Demo](http://www.ambiera.com/coppercube/demo.php?demo=backyard&mode=webgl)
+* [Google Zeitgeist](http://www.google.com/zeitgeist/2012/#explore)
+* [360gigapixels](http://360gigapixels.com/tokyo-tower-panorama-photo/?v=-166.3,-0.6,1)
+* [Digital Landscapes](http://www.littleworkshop.fr/landscapes/)
 
 ### Further Info
 
 [MDN WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL)
+
 [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webgl/webgl_fundamentals/)
+
 [Wikipedia](http://en.wikipedia.org/wiki/WebGL)
 
 ---
