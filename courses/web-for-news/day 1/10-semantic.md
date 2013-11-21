@@ -62,6 +62,7 @@ http://dev.w3.org/html5/spec/Overview.html#the-cite-element
 
 ###Further Info
 [HTML5 Doctor - Semantics](http://html5doctor.com/article-archive/#semantics) 
+
 [Dive into HTML5 - New Semantic Elements in HTML5](http://diveintohtml5.info/semantics.html#new-elements)
 
 ---
