@@ -85,13 +85,13 @@ Time is short and deadlines are usually fixed in a newsroom, this often doesn't 
 2.7 Code for News Resources
 ---------------------------
 
-*[Source](http://source.opennews.org/en-US/)
-*[GitHub - The New York Times](https://github.com/nytimes/)
-*[GitHub - FT Labs]( https://github.com/ftlabs)
-*[GitHub - BBC News](https://github.com/BBC-News/)
-*[GitHub - The Guardian](https://github.com/guardian)
-*[GitHub - ProPublica](https://github.com/propublica/)
-*[GitHub - Al Jazeera America](https://github.com/ajam)
+* [Source](http://source.opennews.org/en-US/)
+* [GitHub - The New York Times](https://github.com/nytimes/)
+* [GitHub - FT Labs]( https://github.com/ftlabs)
+* [GitHub - BBC News](https://github.com/BBC-News/)
+* [GitHub - The Guardian](https://github.com/guardian)
+* [GitHub - ProPublica](https://github.com/propublica/)
+* [GitHub - Al Jazeera America](https://github.com/ajam)
 
 
 ---
