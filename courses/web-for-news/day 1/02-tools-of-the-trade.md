@@ -68,6 +68,8 @@ We're going to use JS Bin for the purposes of our course.
 
 There are a few sites that have compatability tables for various browser technologies. One good one is [CanIUse.com](http://caniuse.com/)
 
+You can check your own browser using [HTML5Test](http://html5test.com/).
+
 
 2.6 Testing
 -----------
