@@ -90,8 +90,11 @@ Colour pickers are difficult to get working on all platforms. Help is hand with 
 ### Further info
 
 [HTML5 forms input types](http://html5doctor.com/html5-forms-input-types/)
+
 [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
+
 [Dive into HTML5 - Forms](http://diveintohtml5.info/forms.html)
+
 [The Current State of HTML5 Forms](http://www.wufoo.com/html5/)
 
 ---
