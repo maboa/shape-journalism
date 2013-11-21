@@ -75,11 +75,8 @@ There are a few sites that have compatability tables for various browser technol
 Time is short and deadlines are usually fixed in a newsroom, this often doesn't leave time for niceties such as testing. But when done right, Test Driven Development can save you time and liberate you to take more chances.
 
 * [Selenium](http://www.seleniumhq.org/)
-
 * [Buster.js](http://docs.busterjs.org/en/latest/)
-
 * [js-test-driver](https://code.google.com/p/js-test-driver/)
-
 * [QUnit](http://qunitjs.com/)
 
 
@@ -88,19 +85,13 @@ Time is short and deadlines are usually fixed in a newsroom, this often doesn't 
 2.7 Code for News Resources
 ---------------------------
 
-[Source](http://source.opennews.org/en-US/)
-
-[GitHub - The New York Times](https://github.com/nytimes/)
-
-[GitHub - FT Labs]( https://github.com/ftlabs)
-
-[GitHub - BBC News](https://github.com/BBC-News/)
-
-[GitHub - The Guardian](https://github.com/guardian)
-
-[GitHub - ProPublica](https://github.com/propublica/)
-
-[GitHub - Al Jazeera America](https://github.com/ajam)
+*[Source](http://source.opennews.org/en-US/)
+*[GitHub - The New York Times](https://github.com/nytimes/)
+*[GitHub - FT Labs]( https://github.com/ftlabs)
+*[GitHub - BBC News](https://github.com/BBC-News/)
+*[GitHub - The Guardian](https://github.com/guardian)
+*[GitHub - ProPublica](https://github.com/propublica/)
+*[GitHub - Al Jazeera America](https://github.com/ajam)
 
 
 ---
