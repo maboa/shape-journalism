@@ -67,11 +67,43 @@ There are a couple of ways of getting around this, one is to use something like 
 8.5 Icon Fonts
 --------------
 
+With the advent of retina screens and the requirement to create web pages that look good on all screens, it seems that the age of the bitmap -- for icons at least -- is coming to an end.
 
+For bitmapped icons to look good on all screens you need to create at least two different versions and create some clever mechanism to serve the correct one to the requesting browser.
+
+Add to all that, the inflexibility of having a fixed colour bitmapped icon and the idea of an icon font starts to sound very attractive.
+
+The two main advantages then:
+
+* Looks perfect on every screen
+* Colours and relative sizes can be changes easily
+
+You can create your own fonts or grab one that's been already made. [Fontello](http://fontello.com/) is a great service that allows you to choose from a large selection of fonts and create a download with just those fonts included. You can also upload your own SVGs and create your own fonts. It also creates the CSS and everything you need to get going with your icon fonts.
+
+You can imagine a newsroom having it's own set of standard fonts.
+
+To get rid of the flash of unstyled text there is another trick.
+
+### Data URIs
+
+Data URI's have a number of advantages, one of them is that the data is inlined into the page. If we base64 encode our fonts then we ensure they are loaded before the interactive is loaded. In some ways this is a simpler and lighter method than relying on events.
+
+
+8.6 Exercise
+------------
+
+1. Create a page with content styled in a non-standard browser font. 
+2. Add icon font navigation.
 
 ---
 
 ### Further info
 
 [Quick guide to webfonts via @font-face](http://www.html5rocks.com/en/tutorials/webfonts/quick/)
+[flaticon icon fonts](http://www.flaticon.com/)
+[fontastic](http://fontastic.me/)
+[CSS Tricks - 5 Use Cases for Icon Fonts](http://css-tricks.com/five-use-cases-for-icon-fonts/)
 
+---
+
+[<< previous 7. CSS](07-css.md) | 	[next 9. New Form Elements >>](09-forms.md)

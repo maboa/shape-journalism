@@ -61,8 +61,13 @@ Sharing snippets of code and allowing people to edit them is a great way of movi
 
 We're going to use JS Bin for the purposes of our course.
 
+2.5 Compatibility
+-----------------
 
-2.5 Testing
+There are a few sites that have compatability tables for various browser technologies. One good one is [CanIUse.com](http://caniuse.com/)
+
+
+2.6 Testing
 -----------
 
 ---
