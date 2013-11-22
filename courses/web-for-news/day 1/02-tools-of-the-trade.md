@@ -68,7 +68,9 @@ We're going to use JS Bin for the purposes of our course.
 
 There are a few sites that have compatability tables for various browser technologies. One good one is [CanIUse.com](http://caniuse.com/)
 
-You can check your own browser using [HTML5Test](http://html5test.com/).
+You can check your own browser using [HTML5Test](http://html5test.com/) you can also compare stats of other browsers.
+
+To see what others are doing, and profile you own sites check out [httparchive.org](http://httparchive.org/).
 
 
 2.6 Testing
@@ -94,6 +96,8 @@ Time is short and deadlines are usually fixed in a newsroom, this often doesn't 
 * [GitHub - The Guardian](https://github.com/guardian)
 * [GitHub - ProPublica](https://github.com/propublica/)
 * [GitHub - Al Jazeera America](https://github.com/ajam)
+
+
 
 
 ---
