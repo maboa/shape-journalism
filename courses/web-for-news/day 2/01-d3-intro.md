@@ -256,4 +256,4 @@ Alter the colour of the circle depending on third entry in each array (0,1).
 
 Based on [AlignedLeft Tutorials](http://alignedleft.com/tutorials/d3/)
 
-[next 2. Further D3 >>](02-further.md)
+[next 2. Labels >>](02-d3-labels.md)
