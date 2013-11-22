@@ -18,3 +18,5 @@ Add compatibility tables to all Day 1 modules
 
 
 More resources for canvas
+
+http://www.informationisbeautifulawards.com/2013-winners/
