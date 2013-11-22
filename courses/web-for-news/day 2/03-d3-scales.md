@@ -46,13 +46,17 @@ and let's apply it to our scatterplot
 
 So as we can see we are forcing our values to fit between radii of 2 and 5.
 
-3.2 Exercise
+3.3 Exercise
 ------------
 
 1. Apply a scale to your scatterplot example.
-2. Add [600, 150] to your data and not what happens.
+2. Apply scales to your X and Y values.
+3. Add [600, 150] to your data and see what happens.
 
-3.3 Other Methods
+[Solution](http://jsbin.com/okaLula/3/edit)
+
+
+3.4 Other Methods
 -----------------
 
 There are a few helpful methods we can add to ```d3.scale.linear()```.
@@ -61,7 +65,7 @@ There are a few helpful methods we can add to ```d3.scale.linear()```.
 * [```rangeRound()```](https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_rangeRound) - Use instead of ```range()``` to round the output.
 * [```clamp()```](https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-linear_clamp) - clamps values to within the specified range
 
-3.4 Other Scales
+3.5 Other Scales
 ----------------
 
 * [```identity```](https://github.com/mbostock/d3/wiki/Quantitative-Scales#wiki-identity) — A 1:1 scale, useful primarily for pixel values
