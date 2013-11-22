@@ -201,3 +201,7 @@ window.onload = function(){
 
 [HTML5 Audio - The State of Play](http://html5doctor.com/html5-audio-the-state-of-play/)
 [HTML5 ROCKS - HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
+
+---
+
+[<< previous 10. Semantic Markup](10-semantic.md)
