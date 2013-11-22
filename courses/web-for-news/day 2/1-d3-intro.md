@@ -1,7 +1,7 @@
-1. Introduction to D3.js (Data Driven Documents)
-================================================
+1. Introduction to D3.js 
+========================
 
-D3.js was created by Mike Bostock at the New York Times to help him creat more interactive visualisations using web technologies.
+D3.js (Data Driven Documents) was created by Mike Bostock at the New York Times to help him creat more interactive visualisations using web technologies.
 
 D3 takes advantages of base technologies we've already explored a little - namely JavaScript, HTML, CSS3, Canvas and SVG.
 
@@ -16,7 +16,7 @@ The best way to learn is to get stuck in, so lets look at simple example:
 
 Let's look at one of the simplest possible examples we can create with D3:
 
-`````html5
+`````html
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +38,7 @@ Here we see that D3 provides a convenient way to select elements and append othe
 1.2 First Contact with Data
 ---------------------------
 
-`````html5
+`````html
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,7 +66,7 @@ If you try this you'll see we still haven't displayed any data.
 
 So let's do something with tha data:
 
-`````html5
+`````html
 <!DOCTYPE html>
 <html>
 <head>
@@ -99,7 +99,7 @@ Inspect the source to see what actually happened.
 1.3 Our First Bar Chart
 -----------------------
 
-`````html5
+`````html
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -144,7 +144,7 @@ The only part that may confuse, if you haven't used a lot of CSS, is the inline-
 1.4 Our First SVG Example
 -------------------------
 
-`````html5
+`````html
 <!DOCTYPE html>
 <html>
   <head>
@@ -191,7 +191,7 @@ The only part that may confuse, if you haven't used a lot of CSS, is the inline-
 
 Above we're using SVG to create circles and alter their positions, but we can take things further.
 
-`````html5
+`````html
 <!DOCTYPE html>
 <html>
   <head>
