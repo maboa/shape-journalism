@@ -22,3 +22,5 @@ More resources for canvas
 http://www.informationisbeautifulawards.com/2013-winners/
 
 add groups to svg tutorial? used in d3 later on.
+
+Show an interactive example of easing equations for D3 Animations.

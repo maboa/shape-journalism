@@ -170,4 +170,4 @@ xAxis.tickFormat(formatAsPercentage);
 ---
 Based on [AlignedLeft Tutorials](http://alignedleft.com/tutorials/d3/)
 
-[<< previous 3. D3 Scales](03-d3-scales.md) 
+[<< previous 3. D3 Scales](03-d3-scales.md) | [next 5. D3 Animation >>](05-d3-animation.md)
