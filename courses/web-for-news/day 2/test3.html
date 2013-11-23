@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>D3 Demo: Scatterplot</title>
+  <script src='d3.js'></script>
+
+  <style type="text/css">
+    /* No style rules here yet */ 
+  </style>
+  </head>
+
+  <body>
+  </body>
+
+  <script type="text/javascript">
+      
+      //Width and height
+    var w = 640;
+    var h = 480;
+    
+    var dataset = [];
+      var numDataPoints = 50;
+      var xRange = Math.random() * 640;
+      var yRange = Math.random() * 480;
+      var rRange = Math.random() * 100;
+      var sRange = Math.random() * 0.5;
+      for (var i = 0; i < numDataPoints; i++) {
+          var newNumber1 = Math.round(Math.random() * xRange);
+          var newNumber2 = Math.round(Math.random() * yRange);
+          var newNumber3 = Math.round(Math.random() * rRange);
+          var newNumber4 = sRange + 0.5;
+          dataset.push([newNumber1, newNumber2, newNumber3, newNumber4]);
+      }
+      
+    //Create SVG element
+      var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+      
+      svg.selectAll("circle")
+       .data(dataset)
+       .enter()
+       .append("circle")
+       .attr("opacity", 0)
+       .attr("fill","orange")
+       .attr("cx", function(d) {
+        return d[0];
+       })
+       .attr("cy", h)
+       ///
+       .transition()
+        .duration(5000)
+        .ease('elastic')
+        .attr("cy", function(d) {
+          console.log(h - d[1]);
+          return h - d[1];
+        })
+        .attr("r", function(d) {
+          return d[2];
+        })
+        .attr("opacity", function(d) {
+          return d[3];
+        })
+        .each("end",function() { 
+          d3.select(this)  
+          .transition()
+          .attr("r",function(d) {
+            return d[2]*2;
+          })
+          .attr("opacity",0)
+          .each("end",function() { 
+            d3.select(this) 
+            .attr("r",0) 
+            .transition()
+            .delay(100)
+            .attr("r",function(d) {
+              return d[2];
+            })
+            .attr("opacity", function(d) {
+              return d[3];
+            });
+          });
+       });
+      
+  </script>
+</html>

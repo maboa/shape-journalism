@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Test</title>
+	<script src='d3.js'></script>
+	<style type="text/css">
+	  /* No style rules here yet */	
+	</style>
+  </head>
+  <body>
+	<script type="text/javascript">
+      
+      //Width and height
+	  var w = 1000;
+	  var h = 500;
+			
+	  //Create SVG element
+      var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+      
+      var myCircle = svg.append("circle")
+       .attr("cx",500 )
+       .attr("cy",250 )
+       .attr("r", 50)
+       .attr("class","circ")
+       .attr("fill","orange");
+
+  d3.select(".circ").on("click", function() {
+    myCircle
+      .transition()
+      .attr("r",100);
+  });
+
+  d3.select(".circ").on("mouseover", function() {
+    myCircle
+      .transition()
+      .attr("fill","yellow");
+  });
+
+  d3.select(".circ").on("mouseout", function() {
+    myCircle
+      .transition()
+      .attr("fill","orange");
+  });
+ 
+			
+	</script>
+  </body>
+</html>
