@@ -67,6 +67,16 @@ Unlike the large CSS 2.1 spec, this is divided into modules (around 50), the sta
 
 Some modules are "level 4", collectively they are referred as "CSS4."
 
+- media queries, responsive design, responsive news
+- pseudo classes
+- paged media, page breaks
+- CSS3 shapes for content
+- typography, hypens
+- 3D
+- animation
+- translation vs positioning
+
+
 ---
 
 [<< previous 6. WebGL](06-webgl.md) | [next 8. Web Fonts >>](08-webfonts.md)
