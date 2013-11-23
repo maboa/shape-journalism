@@ -92,7 +92,7 @@ So that's how we can label a bar chart, let's see how we can label a scatterplot
 	<head>
 		<meta charset="utf-8">
 		<title>D3 Demo: Making a scatterplot with SVG</title>
-		<script type="text/javascript" src="../d3/d3.v3.min.js"></script>
+		<script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
 		<style type="text/css">
 			/* No style rules here yet */		
 		</style>
