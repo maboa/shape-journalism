@@ -106,9 +106,26 @@ a:hover {
 
 Fixes errors in CSS 2 spec, adds already-implemented browser extensions to the specification.
 
+The **CSS Box Model** describes the _rectangular_ boxes that are generated for elements in the _document tree_ and laid out according to the _visual formatting model_.
+
+See http://css-tricks.com/the-css-box-model/
+
+
+
 #### CSS 3
 
 Unlike the large CSS 2.1 spec, this is divided into modules (around 50), the most known and stable ones are:
+
+* UI module with Box Model additions: **Box Sizing** http://css-tricks.com/box-sizing/
+
+```css
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+```
 
 * media queries
 
@@ -140,18 +157,24 @@ There are various approaches in having not only the layout responsive, but also 
 
 See example at http://www.webdesignerdepot.com/2013/03/how-to-use-css3-columns/
 
+* paged media, page breaks
+* OpenType font features, alternative stylistic sets; see http://clagnut.com/sandbox/css3/
+* 3D transforms and animations
+
+See Cube demo http://codepen.io/jkneb/pen/qJBIl and full editor http://tridiv.com also http://acko.net
+
 #### CSS4
 
 Some modules are "level 4", collectively they are referred as "CSS4."
 
-### sss
+### 7.4 Other rules
 
-- paged media, page breaks
-- CSS3 shapes for content
-- typography, hypens
-- 3D
-- animation
-- translation vs positioning
+#### text-rendering
+
+This is an SVG property, it is not defined in any CSS standard. Gecko (Firefox) and WebKit apply text-rendering also to HTML and XML content.
+
+See https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
+
 
 
 ---
