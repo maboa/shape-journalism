@@ -103,6 +103,16 @@ Data URI's have a number of advantages, one of them is that the data is inlined 
 1. Create a page with content styled in a non-standard browser font. 
 2. Add icon font navigation.
 
+
+### Other
+
+- proper fonts for indices http://www.typography.com/fonts/whitney/features/whitney-indices
+- for tabular figures http://www.typography.com/fonts/whitney/features/whitney-numerics
+- accessible icon fonts http://symbolset.com
+- fonts for datavisualisation FF Chartwell https://vimeo.com/41772735
+- **responsive typography** http://ia.net/blog/responsive-typography-the-basics/ and http://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html
+
+
 ---
 
 ### Further info

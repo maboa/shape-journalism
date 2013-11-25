@@ -1,7 +1,11 @@
-7. CSS
+7. CSS 
 ======
 
-### History
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation semantics (the look and formatting) of a document written in a markup language, such as HTML, XHTML, XML, SVG and XUL.
+
+Designed to enable the separation of document content from document presentation.
+
+### 7.1 History
 
 SGML (Standard Generalized Markup Language, 1986) part of a trio of standards for electronic documents:
 
@@ -9,12 +13,14 @@ SGML (Standard Generalized Markup Language, 1986) part of a trio of standards fo
 * DSSSL, reworked into XSLT, XSL-FO
 * HyTime, partially reworked into XLink
 
-```
+SGML sample
+```html
 <QUOTE TYPE=example> 
   typically something like <ITALICS>this</> 
 </QUOTE>
 ```
 
+DSSSL sample
 ```scheme
 (element DIV
  (let ((align (attribute-string "align")))
@@ -28,11 +34,46 @@ SGML (Standard Generalized Markup Language, 1986) part of a trio of standards fo
 	(process-children-trim))))
 ```
 
-CSS (Level 1 1996) was based on 2 out of 9 proposals. Unlike existing style languages like DSSSL, CSS allowed a document's style to be influenced by multiple style sheets. 
+CSS (Level 1 1996) unlike existing style languages like DSSSL, CSS allowed a document's style to be influenced by multiple style sheets. 
 
 One style sheet could inherit or "cascade" from another, permitting a mixture of stylistic preferences controlled equally by the site designer and user.
 
-#### CSS 1
+### 7.2 Syntax
+
+A _style sheet_ consists of a list of _rules_. Each _rule_ consists of one or more _selectors_, and a _declaration block_. 
+
+
+**Selectors** are used to declare which part of the markup a style applies to. They usually apply to:
+
+* all elements of a specific type `h1, h2`
+* elements specified by an attribute, usually **id** `#content` and **class** `.author, p.small`
+* structures based on the document tree `footer small, header > h1` 
+
+```css
+html, body {
+	width: 100%;
+	font-size: 12px;
+}
+
+p.info {
+	font-size: 10px;
+	color: blue;
+} 
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid blue;	
+}
+```
+
+**Pseudo-classes** are used in CSS selectors to permit formatting based on information that is _outside the document tree_. 
+
+### 7.3 Capabilities
+
+#### CSS Level 1 (1996)
 
 * Font properties such as typeface and emphasis
 * Color of text, backgrounds, and other elements
@@ -43,29 +84,98 @@ One style sheet could inherit or "cascade" from another, permitting a mixture of
 #### CSS 2 (1998)
 
 * absolute, relative, and fixed positioning of elements and z-index
+* float, clear http://css-tricks.com/all-about-floats/
 * media types
-* aural style sheets 
+
+```css
+@media print {
+	body { font-size: 10pt }
+}
+@media screen {
+	body { font-size: 13px }
+}
+@media screen, print {
+  body { line-height: 1.2 }
+}
+```
+
 * bidirectional text
-* new font properties such as shadows
+* new font properties (shadows)
 
 #### CSS 2.1 (2004-2007-2009)
 
 Fixes errors in CSS 2 spec, adds already-implemented browser extensions to the specification.
 
+The **CSS Box Model** describes the _rectangular_ boxes that are generated for elements in the _document tree_ and laid out according to the _visual formatting model_.
+
+See http://css-tricks.com/the-css-box-model/
+
+
+
 #### CSS 3
 
-Unlike the large CSS 2.1 spec, this is divided into modules (around 50), the stable ones are:
+Unlike the large CSS 2.1 spec, this is divided into modules (around 50), the most known and stable ones are:
+
+* UI module with Box Model additions: **Box Sizing** http://css-tricks.com/box-sizing/
+
+```css
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+```
 
 * media queries
-* namespaces
-* selectors Level 3
-* colour
+
+```css
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+```
+
+Note: Responsive Design, see examples:
+- http://mediaqueri.es 
+- BBC Responsive News blog http://responsivenews.co.uk
+- ProPublica http://www.propublica.org/nerds/item/how-we-made-propublica.org-look-better-on-your-smartphone-adaptive see http://projects.propublica.org/docdollars/ and http://projects.propublica.org/redistricting-maps/protect-your-vote
+
+There are various approaches in having not only the layout responsive, but also responsive images, videos, etc.
+
+* selectors Level 3 (:empty, :target, :checked, :lang(fr), :not(selector))
 * backgrounds and borders
 * multi-column layout
+
+```css
+.article {
+  column-count: 2;
+  column-gap: 20px;
+}
+```
+
+See example at http://www.webdesignerdepot.com/2013/03/how-to-use-css3-columns/
+
+* paged media, page breaks
+* OpenType font features, alternative stylistic sets; see http://clagnut.com/sandbox/css3/
+* 3D transforms and animations
+
+See Cube demo http://codepen.io/jkneb/pen/qJBIl and full editor http://tridiv.com also http://acko.net
 
 #### CSS4
 
 Some modules are "level 4", collectively they are referred as "CSS4."
+
+### 7.4 Other rules
+
+#### text-rendering
+
+This is an SVG property, it is not defined in any CSS standard. Gecko (Firefox) and WebKit apply text-rendering also to HTML and XML content.
+
+See https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
+
+
 
 ---
 
