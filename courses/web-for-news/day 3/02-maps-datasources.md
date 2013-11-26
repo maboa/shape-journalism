@@ -33,6 +33,8 @@ Tiles are a way to deliver geographic data in small chunks to a browser or other
 
 Are square bitmap graphics displayed in a grid arrangement to show a map.
 
+See [How do web maps work?](https://www.mapbox.com/developers/guide/)
+
 For example [Google Maps: Coordinates, Tile Bounds and Projection](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/)
 
 Usage with D3, see [D3 Clipped Map Tiles](http://bl.ocks.org/mbostock/4150951), [D3 Zoomable Map Tiles](http://bl.ocks.org/mbostock/4132797) and another [d3.geo.tile example](http://bl.ocks.org/emeeks/6147081) 
@@ -53,6 +55,8 @@ A "shapefile" is actually a set of several files, mandatory ones being:
 * .shx — shape index format; a positional index of the feature geometry to allow seeking forwards and backwards quickly
 * .dbf — attribute format; columnar attributes for each shape, in dBase IV format
 
+Example: [OpenStreetMap data for GCC States](http://download.geofabrik.de/asia/gcc-states.html)
+
 ## GeoJSON and TopoJSON
 
 **GeoJSON** is an open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JSON (JavaScript Object Notation).
@@ -61,8 +65,14 @@ See [GeoJSON Examples](http://en.wikipedia.org/wiki/GeoJSON#Example)
 
 **TopoJSON** is a serialisation format for geographic data that offers efficiency through topological representation. Watch Nelson Minar on [TopoJSON: A Smaller GeoJSON with Some Neat Tricks](http://vimeopro.com/openstreetmapus/state-of-the-map-us-2013/video/68099164)
 
+Tool: [GeoJSON validator](http://geojsonlint.com)
+
 ## GeoTiff
 
 GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. 
 
 The potential additional information includes map projection, coordinate systems and everything else necessary to establish the exact spatial reference for the file. 
+
+Example: SRTM (The Shuttle Radar Topography Mission) GeoTiff from [CGIAR-CSI (USA)](http://srtm.csi.cgiar.org/SELECTION/inputCoord.asp)
+
+Other: [NOAA VIIRS Nighttime Lights-2012](http://ngdc.noaa.gov/eog/viirs/download_viirs_ntl.html), example: [MapBox Lights of the Night](https://www.mapbox.com/blog/nighttime-lights-nasa-noaa/) see [full map](https://a.tiles.mapbox.com/v3/herwig.map-o5a45f77.html?secure=1#3/18.65/-5.19)
