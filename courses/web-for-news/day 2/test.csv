@@ -1,0 +1,3 @@
+GHO,Indicator,PUBLISHSTATE,PUBLISH STATES,YEAR,Year,REGION,WHO region,COUNTRY,Country,Display Value,Numeric Value,Low Value,High Value,Comments
+HIV_0000000002,Number of adults aged 15 and over living with HIV,PUBLISHED,Published,2011,2011,EMR,Eastern Mediterranean,AFG,Afghanistan, 5 600 [3 100-17 000],5600,3100,17000,
+HIV_0000000002,Number of adults aged 15 and over living with HIV,PUBLISHED,Published,2011,2011,AFR,Africa,AGO,Angola,190 000 [140 000-300 000],190000,140000,300000,
