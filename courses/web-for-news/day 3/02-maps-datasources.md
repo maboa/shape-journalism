@@ -65,7 +65,7 @@ See [GeoJSON Examples](http://en.wikipedia.org/wiki/GeoJSON#Example)
 
 **TopoJSON** is a serialisation format for geographic data that offers efficiency through topological representation. Watch Nelson Minar on [TopoJSON: A Smaller GeoJSON with Some Neat Tricks](http://vimeopro.com/openstreetmapus/state-of-the-map-us-2013/video/68099164)
 
-Tool: [GeoJSON validator](http://geojsonlint.com)
+Tools: [GeoJSON validator](http://geojsonlint.com), [GeoJSON Converters](http://techslides.com/image-to-svg-to-geojson-converters/)
 
 ## GeoTiff
 
@@ -76,3 +76,13 @@ The potential additional information includes map projection, coordinate systems
 Example: SRTM (The Shuttle Radar Topography Mission) GeoTiff from [CGIAR-CSI (USA)](http://srtm.csi.cgiar.org/SELECTION/inputCoord.asp)
 
 Other: [NOAA VIIRS Nighttime Lights-2012](http://ngdc.noaa.gov/eog/viirs/download_viirs_ntl.html), example: [MapBox Lights of the Night](https://www.mapbox.com/blog/nighttime-lights-nasa-noaa/) see [full map](https://a.tiles.mapbox.com/v3/herwig.map-o5a45f77.html?secure=1#3/18.65/-5.19)
+
+## Shape simplification
+
+* [Simplify.js](http://mourner.github.io/simplify-js/)
+* [d3 line simplification](http://bost.ocks.org/mike/simplify/)
+* [d3 dynamic simplification](http://bl.ocks.org/mbostock/6245977)
+* [d3 dynamic zoom + simplification](http://bl.ocks.org/mbostock/6252418)
+* [MapShaper](http://www.mapshaper.org)
+
+

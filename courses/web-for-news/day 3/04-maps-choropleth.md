@@ -16,10 +16,13 @@ Discussion: [Raphael.js](http://raphaeljs.com)
 
 Example: [simple choropleth](http://raphaeljs.com/australia.html)
 
-If data is SVG, use [Raphaël SVG import plugin](https://github.com/Laurian/raphael-svg-import)
+If data is SVG, use [Raphaël SVG import plugin](https://github.com/crccheck/raphael-svg-import-classic)
 
 Exercise: import SVG and render, use Raphael to 
 
 ## Google Maps with SVG ground layer
 
 Example: TODO
+
+http://stackoverflow.com/questions/1055367/how-can-i-overlay-svg-diagrams-on-google-maps
+
