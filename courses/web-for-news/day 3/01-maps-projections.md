@@ -22,9 +22,9 @@ It is the standard map projection for nautical purposes because of its ability t
 
 See [Loxodrome, Jason Davies](http://www.jasondavies.com/maps/loxodrome/)
 
-### Map projection distorsions 
+### Map projection distortions 
 
-#### Mercator distorsion
+#### Mercator distortion
 
 The classic way of showing the distortion inherent in a projection is to use _Tissot's indicatrix._
 
@@ -37,11 +37,11 @@ See [Tissot’s Indicatrix, Jason Davies](http://www.jasondavies.com/maps/tissot
 
 #### BBC, [How potent are North Korea's threats?](http://www.bbc.co.uk/news/world-asia-21710644)
 
-![North Koream missile ranges](http://news.bbcimg.co.uk/media/images/59119000/jpg/_59119706_north_korea_ranges_2.jpg)
+![North Korean missile ranges](http://news.bbcimg.co.uk/media/images/59119000/jpg/_59119706_north_korea_ranges_2.jpg)
 
 Jason Davies in [Distances from North Korea](http://www.jasondavies.com/maps/north-korea-distance/) notes:
 
-> BBC News has been illustrating North Korean missile ranges using an _orthographic projection_ centred at North Korea. Unfortunately, this is slightly misleading, as _distances measured relative to the centre are not preserved under this projection, particularly near the edges._ Furthermore, the orthographic projection is limited to a single hemisphere at a time, and so _much of the U.S. mainland is not shown, despite it being of interest to the story._
+> BBC News has been illustrating North Korean missile ranges using an _orthographic projection_ centered at North Korea. Unfortunately, this is slightly misleading, as _distances measured relative to the centre are not preserved under this projection, particularly near the edges._ Furthermore, the orthographic projection is limited to a single hemisphere at a time, and so _much of the U.S. mainland is not shown, despite it being of interest to the story._
 
 Check [Jason Davies and Mike Bostock's projections for D3](https://github.com/d3/d3-geo-projection/blob/master/README.md)
 
@@ -71,7 +71,7 @@ More than two sets of data leads to **multivariate** mapping. For example, a sin
 
 #### Cartograms
 
-A cartogram is a map in which some _thematic mapping variable_ – such as travel time, population – is substituted for land area or distance. The geometry or space of the map is _distorted_ in order to convey the information of this alternate variable.
+A cartogram is a map in which some _thematic mapping variable_, such as travel time, population, is substituted for land area or distance. The geometry or space of the map is _distorted_ in order to convey the information of this alternate variable.
 
 * Area cartograms (density-equalizing maps), see [world population cartogram](http://www2.imperial.ac.uk/~mgastner/cartogram/cartogram.html)
 * Distance cartograms ![Distance cartogram of the London Underground from High Barnet station](http://wiki.gis.com/wiki/images/3/32/Travel_Time_Tube_Map_-_High_Barnet.png) 
