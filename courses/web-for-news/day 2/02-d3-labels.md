@@ -154,4 +154,4 @@ All we do is alter the Y dimension.
 ---
 Based on [AlignedLeft Tutorials](http://alignedleft.com/tutorials/d3/)
 
-[<< previous 1. Introduction to D3.js ](01-d3-intro.md) | 	[next 3. D3 Scales >>](03-d3-labels.md)
+[<< previous 1. Introduction to D3.js ](01-d3-intro.md) | 	[next 3. D3 Scales >>](03-d3-scales.md)

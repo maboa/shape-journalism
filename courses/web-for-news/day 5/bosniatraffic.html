@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Bosnia Traffic Deaths</title>
+  <script src='http://d3js.org/d3.v3.min.js'></script>
+</head>
+<body>
+  <script>
+
+  var dataset;
+  var year = "2008";
+    
+  d3.csv("https://rawgithub.com/limasol/trafficdeaths-bosnia/master/traffic-data.csv", function(d){
+    //console.log(d);
+    console.log("hhhhh");
+    console.log(d[0]);
+    console.log(d[0]['2008']);
+
+    dataset = d;
+    
+  });
+
+  function cScale(v) {
+  	return Math.round((25000 - parseInt(v))/100);
+  }
+    
+    
+    
+  d3.xml("https://rawgithub.com/limasol/trafficdeaths-bosnia/master/bosnia-map-regions.svg", "image/svg+xml", function(xml) {
+    document.body.appendChild(xml.documentElement);
+
+    for (var i=0; i < dataset.length; i++) {
+    	console.log(dataset[i]['Code']);
+    	console.log(dataset[i]['2008']);
+    	console.log(cScale(dataset[i]['2008']));
+    	var brightness = cScale(dataset[i]['2008']);
+
+    	d3.select('#'+dataset[i]['Code']).attr("fill",rgb('255',brightness,brightness));
+    }
+
+    d3.select('#S1').attr("fill","#BB0000");
+    d3.select('#S2').attr("fill","#DD0000");
+    d3.select('#S3').attr("fill","#FF0000");
+    d3.select('#S4').attr("fill","#FF2222");
+    d3.select('#S5').attr("fill","#FF4444");
+    d3.select('#S6').attr("fill","#FF6666");
+    d3.select('#S7').attr("fill","#FF9999");
+    d3.select('#S8').attr("fill","#FFAAAA");
+    d3.select('#S9').attr("fill","#FFCCCC");
+    d3.select('#S10').attr("fill","#FFEEEE");
+    d3.select('#S11').attr("fill","#BBFF00");
+    d3.select('#S12').attr("fill","#DDFF00");
+    d3.select('#S13').attr("fill","#FFFF00");
+    d3.select('#S14').attr("fill","#DDFFDD");
+    d3.select('#S15').attr("fill","#DDFFAA");
+    d3.select('#S16').attr("fill","#DDAA00");
+    d3.select('#S17').attr("fill","#DD4400");
+  });
+    
+  
+  </script>
+</body>
+</html>
