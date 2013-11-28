@@ -10,7 +10,7 @@ Data
 ### Aids Data
 * [Full](https://rawgithub.com/maboa/shape-journalism/master/courses/web-for-news/day%202/wafull.csv)
 
-* [Med] (https://rawgithub.com/maboa/shape-journalism/master/courses/web-for-news/day%202/wamed.csv)
+* [Med](https://rawgithub.com/maboa/shape-journalism/master/courses/web-for-news/day%202/wamed.csv)
 
-* [Small] (https://rawgithub.com/maboa/shape-journalism/master/courses/web-for-news/day%202/wasmall.csv)
+* [Small](https://rawgithub.com/maboa/shape-journalism/master/courses/web-for-news/day%202/wasmall.csv)
 
