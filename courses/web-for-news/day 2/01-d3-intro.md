@@ -5,11 +5,11 @@ D3.js (Data Driven Documents) was created by Mike Bostock at the New York Times 
 
 D3 takes advantages of base technologies we've already explored a little - namely JavaScript, HTML, CSS3, Canvas and SVG.
 
-As you can probably tell by it's name D3 is heavily data oriented. It's aim is to make it easier for us to visualise data on the web, whether that is through HTML tables or SVG.
+As you can probably tell by its name, D3 is heavily data oriented. Its aim is to make it easier for us to visualise data on the web, whether that is through HTML or SVG.
 
 D3 is fast and flexible and provides several helper methods for dealing with the DOM.
 
-The best way to learn is to get stuck in, so lets look at simple example:
+The best way to learn it is to get stuck in, so lets look at simple example:
 
 1.1 Hello World
 ---------------
