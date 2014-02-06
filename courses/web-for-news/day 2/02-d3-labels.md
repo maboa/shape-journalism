@@ -151,6 +151,7 @@ So that's how we can label a bar chart, let's see how we can label a scatterplot
 </html>
 `````
 All we do is alter the Y dimension.
+
 ---
 Based on [AlignedLeft Tutorials](http://alignedleft.com/tutorials/d3/)
 
